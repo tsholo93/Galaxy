@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Galaxy/static/css/main.294d6916.css",
+    "main.css": "/Galaxy/static/css/main.16525f01.css",
     "main.js": "/Galaxy/static/js/main.f3683e83.js",
     "static/media/man-focused-while-gaming.jpg": "/Galaxy/static/media/man-focused-while-gaming.6b388fdb4bbf156b6844.jpg",
     "static/media/group-gamers.jpg": "/Galaxy/static/media/group-gamers.198f9cda46e5dc0cbc8b.jpg",
@@ -15,11 +15,11 @@
     "static/media/opensans-regular-webfont.woff2": "/Galaxy/static/media/opensans-regular-webfont.b9c6dac830d1a410aa56.woff2",
     "static/media/jost-700-bold-webfont.woff2": "/Galaxy/static/media/jost-700-bold-webfont.d9501c76d0c515e1e4a8.woff2",
     "index.html": "/Galaxy/index.html",
-    "main.294d6916.css.map": "/Galaxy/static/css/main.294d6916.css.map",
+    "main.16525f01.css.map": "/Galaxy/static/css/main.16525f01.css.map",
     "main.f3683e83.js.map": "/Galaxy/static/js/main.f3683e83.js.map"
   },
   "entrypoints": [
-    "static/css/main.294d6916.css",
+    "static/css/main.16525f01.css",
     "static/js/main.f3683e83.js"
   ]
 }
