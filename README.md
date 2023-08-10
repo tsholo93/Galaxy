@@ -4,7 +4,7 @@
 
 Welcome to the Galaxy Gaming Event Website! This repository contains the code and assets for the official website of the Galaxy Gaming Event, an exciting and immersive gaming experience that takes you on a journey through the cosmos of gaming.
 
-To experience the UnNormal website, simply visit [Galaxy](https://tsholo93.github.io/galaxy/).
+To experience the Galaxy website, simply visit [Galaxy](https://tsholo93.github.io/galaxy/).
 
 ## How It Was Made
 
