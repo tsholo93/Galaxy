@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/galaxy/static/css/main.83f20150.css",
-    "main.js": "/galaxy/static/js/main.a6d79d8c.js",
-    "static/media/man-focused-while-gaming.jpg": "/galaxy/static/media/man-focused-while-gaming.6b388fdb4bbf156b6844.jpg",
-    "static/media/group-gamers.jpg": "/galaxy/static/media/group-gamers.198f9cda46e5dc0cbc8b.jpg",
-    "static/media/two-gamers.jpg": "/galaxy/static/media/two-gamers.fd53c5769899e24c8549.jpg",
-    "static/media/gamers-fist-bump-after-winning-game.jpg": "/galaxy/static/media/gamers-fist-bump-after-winning-game.8be36fab403887f5ab25.jpg",
-    "static/media/focus-gamer.jpg": "/galaxy/static/media/focus-gamer.9564396b4b834a42d2ad.jpg",
-    "static/media/man-computer.jpg": "/galaxy/static/media/man-computer.2344515dda27fa3fe483.jpg",
-    "static/media/opensans-bold-webfont.woff": "/galaxy/static/media/opensans-bold-webfont.df2366fbaf789a0a4b51.woff",
-    "static/media/opensans-regular-webfont.woff": "/galaxy/static/media/opensans-regular-webfont.d959114e9152f09817da.woff",
-    "static/media/jost-700-bold-webfont.woff": "/galaxy/static/media/jost-700-bold-webfont.65c481028314644d14ba.woff",
-    "static/media/opensans-bold-webfont.woff2": "/galaxy/static/media/opensans-bold-webfont.1c81a41c6c09615a840c.woff2",
-    "static/media/opensans-regular-webfont.woff2": "/galaxy/static/media/opensans-regular-webfont.b9c6dac830d1a410aa56.woff2",
-    "static/media/jost-700-bold-webfont.woff2": "/galaxy/static/media/jost-700-bold-webfont.d9501c76d0c515e1e4a8.woff2",
-    "index.html": "/galaxy/index.html",
-    "main.83f20150.css.map": "/galaxy/static/css/main.83f20150.css.map",
-    "main.a6d79d8c.js.map": "/galaxy/static/js/main.a6d79d8c.js.map"
+    "main.css": "/Galaxy/static/css/main.294d6916.css",
+    "main.js": "/Galaxy/static/js/main.f3683e83.js",
+    "static/media/man-focused-while-gaming.jpg": "/Galaxy/static/media/man-focused-while-gaming.6b388fdb4bbf156b6844.jpg",
+    "static/media/group-gamers.jpg": "/Galaxy/static/media/group-gamers.198f9cda46e5dc0cbc8b.jpg",
+    "static/media/two-gamers.jpg": "/Galaxy/static/media/two-gamers.fd53c5769899e24c8549.jpg",
+    "static/media/gamers-fist-bump-after-winning-game.jpg": "/Galaxy/static/media/gamers-fist-bump-after-winning-game.8be36fab403887f5ab25.jpg",
+    "static/media/focus-gamer.jpg": "/Galaxy/static/media/focus-gamer.9564396b4b834a42d2ad.jpg",
+    "static/media/man-computer.jpg": "/Galaxy/static/media/man-computer.2344515dda27fa3fe483.jpg",
+    "static/media/opensans-bold-webfont.woff": "/Galaxy/static/media/opensans-bold-webfont.df2366fbaf789a0a4b51.woff",
+    "static/media/opensans-regular-webfont.woff": "/Galaxy/static/media/opensans-regular-webfont.d959114e9152f09817da.woff",
+    "static/media/jost-700-bold-webfont.woff": "/Galaxy/static/media/jost-700-bold-webfont.65c481028314644d14ba.woff",
+    "static/media/opensans-bold-webfont.woff2": "/Galaxy/static/media/opensans-bold-webfont.1c81a41c6c09615a840c.woff2",
+    "static/media/opensans-regular-webfont.woff2": "/Galaxy/static/media/opensans-regular-webfont.b9c6dac830d1a410aa56.woff2",
+    "static/media/jost-700-bold-webfont.woff2": "/Galaxy/static/media/jost-700-bold-webfont.d9501c76d0c515e1e4a8.woff2",
+    "index.html": "/Galaxy/index.html",
+    "main.294d6916.css.map": "/Galaxy/static/css/main.294d6916.css.map",
+    "main.f3683e83.js.map": "/Galaxy/static/js/main.f3683e83.js.map"
   },
   "entrypoints": [
-    "static/css/main.83f20150.css",
-    "static/js/main.a6d79d8c.js"
+    "static/css/main.294d6916.css",
+    "static/js/main.f3683e83.js"
   ]
 }
