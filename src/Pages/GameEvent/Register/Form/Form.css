@@ -1,0 +1,39 @@
+.galaxy-form {
+  width: 100%;
+  height: 100%;
+  color: #F2F2F2 !important;
+}
+
+
+.x-dark,
+.x-dark:focus {
+  background: none;
+  color: #F2F2F2;
+}
+
+.x-dark::placeholder {
+  color: grey;
+}
+
+.border-gradient {
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.btn-style {
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+
+
+@media all and (min-width: 992px) {
+
+}

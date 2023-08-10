@@ -1,0 +1,132 @@
+.galaxy-masthead {
+  min-height: 100vh;
+  background: linear-gradient(76.8deg, rgba(121, 45, 129, 0.4) 3.6%, rgba(36, 31, 98, 0.4) 90.4%), url(../assets/man-focused-while-gaming.jpg) no-repeat 50% 50% / cover fixed, black;
+  color: #F2F2F2;
+}
+
+.galaxy-hero {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.galaxy-hero h1 {
+  width: 100%;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -4px;
+  line-height: 0.9;
+}
+
+.galaxy-hero .text,
+.galaxy-hero .dates p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.galaxy-hero .dates p > span {
+  display: block;
+  font-size: 2rem;
+}
+
+.galaxy-timer {
+  width: 100%;
+  max-width: 100%;
+  min-height: 20vh;
+  color: #F2F2F2;
+}
+
+.galaxy-timer .timer-list {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galaxy-timer .timer-list li {
+  font-family: "Jost";
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 1rem;
+}
+
+.galaxy-timer .timer-list li:last-child {
+  margin-right: 0;
+}
+
+.galaxy-timer .timer-list li span {
+  display: block;
+  font-weight: 700;
+  font-family: "Jost";
+  font-size: 1.5rem;
+}
+
+.galaxy-hero .galaxy-btn {
+  max-width: max-content;
+  width: 30%;
+  margin: 0 auto;
+}
+
+
+
+@media all and (min-width: 576px) {
+  .galaxy-hero h1 {
+    padding: 1rem;
+    font-size: 2.8rem;
+  }
+
+  .galaxy-hero .text {
+    font-size: 1rem;
+    padding: 0 3rem;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+  }
+}
+
+
+@media all and (min-width: 768px) {
+  .galaxy-hero h1 {
+    font-size: 4.7rem;
+  }
+
+  .galaxy-hero .text {
+    font-size: 1.3rem;
+  }
+
+  .galaxy-timer .timer-wrapper {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
+
+@media all and (min-width: 992px) {
+  .galaxy-hero h1 {
+    font-size: 5rem;
+  }
+
+  .galaxy-hero .text {
+    font-size: 1.5rem;
+  }
+
+}
+
+
+@media all and (min-width: 1200px) {
+  .galaxy-timer .timer-wrapper {
+    max-width: 50%;
+    width: 50%;
+  }
+}

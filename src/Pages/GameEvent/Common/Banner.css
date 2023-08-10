@@ -1,0 +1,30 @@
+ .banner {
+  font-size: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  background: #F2F2F2;
+  padding: 2rem;
+  margin: 0;
+  min-height: 40vh;
+ }
+
+
+ .banner h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+
+  margin: 0;
+  padding: 0;
+}
+
+.banner .span1 {
+   font-size: 4em;
+   color: #201D73;
+ }

@@ -1,0 +1,69 @@
+.galaxy-vh80 {
+  height: 100%;
+}
+
+.galaxy-img {
+  overflow: hidden;
+  min-height: 50vh;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.galaxy-img > img {
+  max-width: 100%;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  /*object-position: 80% 25%;*/
+}
+
+.galaxy-short-content {
+  min-height: 60vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (min-width: 568px) {
+  .galaxy-vh80,
+  .galaxy-img
+  .galaxy-img > img {
+    min-height: 60vh;
+    height: 100%;
+  }
+
+  .galaxy-img > img {
+    height: 60vh;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .galaxy-vh80,
+  .galaxy-img {
+    min-height: 80vh;
+    height: 100%;
+  }
+
+  .galaxy-img > img {
+    height: 80vh;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .galaxy-vh80,
+  .galaxy-img {
+    min-height: 90vh;
+    height: 100%;
+  }
+
+  .galaxy-img > img {
+    height: 90vh;
+    height: 100%;
+  }
+
+  .galaxy-short-content {
+    min-height: 90vh;
+    height: 100%;
+  }
+}

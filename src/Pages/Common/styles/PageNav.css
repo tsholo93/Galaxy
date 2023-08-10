@@ -1,0 +1,114 @@
+
+.nav-link {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.2rem;
+  margin-right: 0.5rem;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  font-size: 0.8rem;
+  color: #F2F2F2;
+  position: relative;
+  cursor: pointer !important;
+  overflow: hidden;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: currentColor;
+  transform: translateX(-110%);
+  transition: transform 500ms ease;
+}
+
+.nav-link:hover::before {
+  transform: translateX(0%);
+}
+
+
+.galaxy-nav-list {
+  list-style: none;
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.galaxy-nav-list li {
+  padding: 0;
+  margin: 0;
+}
+
+.galaxy-nav-list.open {
+  position: fixed;
+  overflow: hidden;
+  z-index: 30000;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  padding: 4rem;
+  margin: 0;
+  list-style: none;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  inset: 0px;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.9);
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.galaxy-nav-list.open li {
+  width: 100%;
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.galaxy-nav-toggler {
+  background: none !important;
+  border: none !important;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 50000;
+  cursor: pointer;
+}
+
+.galaxy-nav-toggler > img {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+}
+
+
+@media all and (min-width: 700px) {
+  .galaxy-nav-list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 3rem 0 0;
+  }
+
+  .galaxy-nav-toggler {
+    display: none;
+  }
+}
+
+
+
+
