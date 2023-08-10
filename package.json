@@ -1,6 +1,6 @@
 {
-  "homepage": "https://tsholo93.github.io/galaxy/",
-  "name": "galaxy",
+  "homepage": "https://tsholo93.github.io/Galaxy/",
+  "name": "Galaxy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
